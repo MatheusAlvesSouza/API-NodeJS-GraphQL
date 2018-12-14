@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Matheus Alves",
+        "age": 19,
+        "knowledge": [
+            {
+                "id": 1,
+                "name": "Back-end"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Matheus Souza",
+        "age": 18,
+        "knowledge": [
+            {
+                "id": 2,
+                "name": "Front-end"
+            }
+        ]
+    }
+]
