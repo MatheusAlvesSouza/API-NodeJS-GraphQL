@@ -12,8 +12,9 @@ app.use('/user', expressGraphQL({
     pretty: false // If true it'll put enter after each property
 }));
 
-app.get('/playground', playground({ endpointUrl: '/playground' }));
+// Add GraphQL Playground 
+app.get('/playground', playground({ endpoint: '/user' }));
 
 app.listen(3000, () => {
-    console.log('Rodando na porta 3000...');
+    console.log('Rodando na porta 3000...\nhttp://127.0.0.1:3000/playground');
 });
